@@ -3,6 +3,7 @@
 # Splitting input file into the form I want
 input = open('aoc2021/day2input.txt', 'r')
 lines = input.read().splitlines()
+input.close()
 for index in range(len(lines)):
     lines[index] = lines[index].split(' ')
 
