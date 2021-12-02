@@ -2,8 +2,7 @@
 
 # Splitting input file into the form I want
 input = open('aoc2021/day1input.txt', 'r')
-lines = input.read()
-lines = lines.splitlines()
+lines = input.read().splitlines()
 
 # Part 1
 greaterCount = 0
